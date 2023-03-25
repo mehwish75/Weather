@@ -85,3 +85,25 @@ header {
     text-align: center;
     justify-content: center;
   }
+
+  @media (max-width: 600px) {
+    header {
+      font-size: 24px;
+    }
+    .container1 {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    input[type="text"] {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .button {
+      display: block;
+    }
+    button {
+      width: 100%;
+    }
+  }
