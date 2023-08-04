@@ -24,5 +24,6 @@ function displayWeather(data) {
             <h4>Pressure: ${data.main.pressure} hPa</h4>
             <h4>Wind speed: ${data.wind.speed} m/s</h4>
             <h4>Wind direction: ${data.wind.deg} degrees</h4>`;
+            
     }
 }
